@@ -48,5 +48,4 @@ No event for mouse hover or leave
 $(function () {
 Rating.Init({ RatingArea: "rating_area", Css: "review_star", OverCss: "mark",ReadyOnly:true });
 });
-========================================
 
