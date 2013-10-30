@@ -9,8 +9,6 @@ How To Use
 ==================================
 Simple Import ratingcontrol.js in you application
 
-Code
-============
 $(function () {
 Rating.Init({ RatingArea: "rating_area", Css: "review_star", OverCss: "mark" });
 });
