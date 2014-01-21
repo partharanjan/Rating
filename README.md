@@ -8,10 +8,11 @@ Easy way to create Rating Control in Bootstrap
 How To Use
 ==================================
 Simple Import ratingcontrol.js in you application
-
+```
 $(function () {
 Rating.Init({ RatingArea: "rating_area", Css: "review_star", OverCss: "mark" });
 });
+```
 
 Parameters For Rating
 ===========================
@@ -23,10 +24,11 @@ Parameters For Rating
 
 How To Get Selected Rating Value
 =====================================
+```
 $(function () {
 Rating.Init({ RatingArea: "rating_area", Css: "review_star", OverCss: "mark" });
 });
-
+```
 Rating.Rate
 
 This will get the value in integer from (0-5)
@@ -35,15 +37,17 @@ Apply Rate To
 =================================
 In some case you want to display default Rating
 Its very simple
-
+```
 $(function () {
 Rating.Init({ RatingArea: "rating_area", Css: "review_star", OverCss: "mark",RateTo:4,ReadyOnly:true });
 });
+```
 
 Appply ReadyOnly
 =========================
 No event for mouse hover or leave
+```
 $(function () {
 Rating.Init({ RatingArea: "rating_area", Css: "review_star", OverCss: "mark",ReadyOnly:true });
 });
-
+```
