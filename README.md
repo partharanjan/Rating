@@ -43,7 +43,7 @@ Rating.Init({ RatingArea: "rating_area", Css: "review_star", OverCss: "mark",Rat
 });
 ```
 
-Appply ReadyOnly
+Apply ReadyOnly
 =========================
 No event for mouse hover or leave
 ```
